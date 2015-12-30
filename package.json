@@ -1,0 +1,17 @@
+{
+  "name": "concap",
+  "version": "0.0.1",
+  "description": "Global console capturer",
+  "keywords": ["console", "capture", "trap", "catch", "buffer"],
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Alexey Yaroshevich <zxqfox@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-subset": "^1.2.0",
+    "mocha": "^2.3.4"
+  }
+}
