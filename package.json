@@ -13,5 +13,9 @@
     "chai": "^3.4.1",
     "chai-subset": "^1.2.0",
     "mocha": "^2.3.4"
-  }
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ]
 }
