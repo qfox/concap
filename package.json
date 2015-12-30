@@ -1,6 +1,6 @@
 {
   "name": "concap",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Global console capturer",
   "keywords": ["console", "capture", "trap", "catch", "buffer"],
   "main": "lib/index.js",
