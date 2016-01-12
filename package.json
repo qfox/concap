@@ -15,6 +15,9 @@
     "test": "mocha"
   },
   "author": "Alexey Yaroshevich <zxqfox@gmail.com>",
+  "dependencies": {
+    "tosource": "^1.0.0"
+  },
   "devDependencies": {
     "chai": "^3.4.1",
     "chai-subset": "^1.2.0",
