@@ -1,6 +1,6 @@
 var concap = require('../../');
 
-describe('concap', function() {
+describe('index', function() {
   it('should return and clean an array on calling getClean', function() {
     concap.getClean().should.be.an('array').and.empty;
   });
@@ -16,6 +16,8 @@ describe('concap', function() {
     logs.should.be.an('array').with.length(2);
     logs[0].should.containSubset({method: 'log', args: ['first argument', 'second argument']});
     logs[1].should.containSubset({method: 'warn', args: ['second call']});
+
+    concap.getClean().should.be.an('array').and.empty;
   });
 
   it('should emulate time-timeEnd combos with .log', function(done) {
